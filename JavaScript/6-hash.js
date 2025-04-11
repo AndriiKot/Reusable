@@ -10,7 +10,6 @@ const persons = {
   rene: { name: 'Rene Descartes' },
 };
 
-for (const name in persons) {
-  const person = persons[name];
-  welcome(person);
+for (const person in persons) {
+  welcome(persons[person]);
 }
