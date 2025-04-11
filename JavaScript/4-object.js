@@ -1,7 +1,7 @@
 'use strict';
 
-const welcome = (person) => {
-  console.log(`Ave, ${person.name}!`);
+const welcome = ({ name }) => {
+  console.log(`Ave, ${name}!`);
 };
 
 const marcus = { name: 'Marcus Aurelius' };
